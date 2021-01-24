@@ -12,6 +12,7 @@ $id = $_POST['id'];
 $task = new Task();
 $task->update([$title, $contents, $id]);
 
+
 // リダイレクト
 header('location:index.php');
 exit;
